@@ -42,7 +42,7 @@ if (require.main === module) {
     // When this script is run as the entry point, starts the HTTP server.
     //
     app.listen(PORT, () => {
-        console.log(`Microservice online. Ya kang penting online. Listening on port ${PORT}.`);
+        console.log(`Microservice online. Listening on port ${PORT}.`);
     });
 }
 else {
